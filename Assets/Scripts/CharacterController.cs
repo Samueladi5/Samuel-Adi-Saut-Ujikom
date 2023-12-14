@@ -37,7 +37,7 @@ public class CharacterController : MonoBehaviour
 
         Rigidbody2D rb = projectile.GetComponent<Rigidbody2D>();
 
-        rb.velocity = bulletDot.right * projectileSpeed;
+        rb.velocity = bulletDot.up * projectileSpeed;
 
     }
 }
